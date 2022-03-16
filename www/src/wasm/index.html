@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebAssembly Test</title>
+  </head>
+
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    h2 {
+      text-align: center;
+    }
+  </style>
+
+  <body>
+    <section>
+      <h2>Rust + WebAssembly + Webpack</h2>
+      <div id="fps"></div>
+    </section>
+    <section>
+      <button id="stop">stop</button>
+      <button id="resetDead">clean</button>
+      <button id="resetRandom">reset</button>
+      <button id="jump">to see native js</button>
+    </section>
+    <canvas id="game-of-life-canvas"></canvas>
+  </body>
+</html>
